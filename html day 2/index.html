@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Interview Preparation</title>
+</head>
+<body>
+    <h1><u>HTML INTERVIEW PREPARATION-DAY 2</u></h1>
+    <h2>Difference between html tags and elements.</h2>
+    <p>HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.</p>
+    <b><i>Syntax:</i></b>
+    &lt tag &gt &lt /tag &gt
+    <p>Whereas,An HTML element is defined by the combination of  start tag, some content, and an end tag.</p>
+    <b><i>Syntax:</i></b>
+    &lt tag &gt Content &lt /tag &gt
+    <hr>
+    <h2>Explain br tag.</h2>
+    <p>The br tag inserts a single line break. The br tag is useful for writing addresses or poems. The br tag is an empty tag which means that it has no end tag.</p>
+    <hr>
+    <h2>Explain how many types of lists are there in HTML.</h2>
+    <p>There are 3 types of lists in HTML, namely: Unordered List. Ordered List. Description List.</p>
+    <h3><i>Unordered lists:</i></h3>
+    <p>An unordered list typically is a bulleted list of items. HTML gives the ability to customise the bullets.</p>
+    <b><i>For example:</i></b>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h3><i>Ordered lists:</i></h3>
+    <p>An ordered list typically is a numbered list of items. HTML gives you the ability to control the sequence number. </p>
+    <b><i>For example:</i></b>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h3>Description lists:</h3>
+    <p>A description list is a list of terms, with a description of each term.</p>
+    <b><i>For example:</i></b>
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Description</dd>
+        <dt>Item 2</dt>
+        <dd>Description</dd>
+        <dt>Item 3</dt>
+        <dd>Description</dd>
+    </dl>
+    <hr>
+    <h2>What are semantic tags?</h2>
+    <p>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</p>
+    <b><i>For example:</i></b>
+    <ul>
+        <li>Header tag</li>
+        <li>Footer tag</li>
+        <li>Main tag,etc.</li>
+    </ul>
+    <hr>
+    <h2>Write a code to create an ordered list with roman numbers.</h2>
+    <b><i>For example:</i></b>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <hr>
+    <h2>Write a code to create an unordered list with circle.</h2>
+    <b><i>For example:</i></b>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr>
+    <h2>Write a code to create a link to https://www.prepbytes.com .</h2>
+    Following is the code to the link.<br>
+    <a href="https://www.prepbytes.com">Click Me!</a> 
+    <hr>
+    <h2>Write a code to insert an image.</h2>
+    <img src="./download.jpg" width="250" alt="smile"><p>Smile Please!</p>
+    <hr>
+    <h2>Create a form that contain input like name ,age, email and contact.</h2>
+    <form>
+        <label><b>Name:</b><input type="text" name="Name" id="name"></label><br><br>
+        <label><b>Age:</b><input type="number" name="Age" id="age"></label><br><br>
+        <label><b>email:</b><input type="email" name="email" id="email"></label><br><br>
+        <label><b>Contact Number:</b><input type="number" name="number" id="number"></label><br><br>
+    </form>
+    <hr>
+    <h2>Create a table and explain how to achieve colspan.</h2>
+    <p>Following is the created table and colspan has been applied to 'Heading 2'.</p>
+    <table border="1">
+       
+        <tbody>
+            <tr>
+                <td>Heading 1</td>
+                <td colspan="2">Heading 2</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+    <h2>Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two .</h2>
+    <p>Given below are the radio button.</p>
+    <form>
+    <input type="radio"  name="course" id="Mern" value="mern"><label>MERN</label><br>
+    <input type="radio" name="course" id="Mean" value="mean"><label>MEAN</label>
+    </form>
+    <hr>
+    
+  
+    
+
+</body>
+</html>
